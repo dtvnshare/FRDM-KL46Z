@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+  <SchemaVersion>1.0</SchemaVersion>
+  <Header>### uVision Project, (C) Keil Software</Header>
+  <WorkspaceName>WorkSpace</WorkspaceName>
+<project><PathAndName>..\..\..\..\..\build\mdk\mqx_frdmkl46z\mqx_frdmkl46z.uvprojx</PathAndName><NodeIsActive>0</NodeIsActive></project><project><PathAndName>..\..\..\..\..\..\..\..\lib\ksdk_mqx_lib\mdk\KL46Z4\ksdk_mqx_lib.uvprojx</PathAndName><NodeIsActive>0</NodeIsActive></project><project><PathAndName>hello_lite_frdmkl46z.uvprojx</PathAndName><NodeIsActive>0</NodeIsActive></project></ProjectWorkspace>
