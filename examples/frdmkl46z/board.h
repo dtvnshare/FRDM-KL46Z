@@ -173,7 +173,7 @@
                            LED2_OFF;
 
 /* The SDHC instance/channel used for board */
-/* #define BOARD_SDHC_INSTANCE             0*/
+#define BOARD_SPI_INSTANCE             0
 
 /* The CMP instance used for board. */
 #define BOARD_CMP_INSTANCE              0

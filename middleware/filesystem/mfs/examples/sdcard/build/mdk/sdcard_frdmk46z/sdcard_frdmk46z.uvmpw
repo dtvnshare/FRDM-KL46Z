@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>..\..\..\..\..\..\..\..\rtos\mqx\mqx\build\mdk\mqx_frdmkl46z\mqx_frdmkl46z.uvprojx</PathAndName>
+    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+  <project>
+    <PathAndName>..\..\..\..\..\build\mdk\mfs_frdmkl46z\mfs_frdmkl46z.uvprojx</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+  </project>
+
+  <project>
+    <PathAndName>..\..\..\..\..\..\..\..\rtos\mqx\nshell\build\mdk\nshell_frdmkl46z\nshell_frdmkl46z.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\..\..\..\..\..\..\..\rtos\mqx\mqx_stdlib\build\mdk\mqx_stdlib_frdmkl46z\mqx_stdlib_frdmkl46z.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\..\..\..\..\..\..\..\lib\ksdk_mqx_lib\mdk\KL46Z4\ksdk_mqx_lib.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\sdcard_frdmk46z.uvprojx</PathAndName>
+    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+</ProjectWorkspace>

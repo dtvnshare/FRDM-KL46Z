@@ -111,11 +111,11 @@
 #endif
 
 #ifndef MQX_USE_LOGS
-#define MQX_USE_LOGS                        0
+#define MQX_USE_LOGS                        1
 #endif
 
 #ifndef MQX_USE_SEMAPHORES
-#define MQX_USE_SEMAPHORES                  0
+#define MQX_USE_SEMAPHORES                  1
 #endif
 
 #ifndef MQX_USE_SW_WATCHDOGS
@@ -177,7 +177,7 @@
 #endif
 
 #ifndef MQX_HAS_TIME_SLICE
-#define MQX_HAS_TIME_SLICE                  0
+#define MQX_HAS_TIME_SLICE                  1
 #endif
 
 #ifndef MQX_KERNEL_LOGGING

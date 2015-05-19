@@ -51,9 +51,11 @@ enum _gpio_pins
     kGpioLED2        = GPIO_MAKE_PIN(GPIOE_IDX, 29),  /* FRDM-KL46Z4 Red LED */
     kGpioSW1         = GPIO_MAKE_PIN(GPIOC_IDX, 3),   /* FRDM-KL46Z4 switchPin1 */
     kGpioSW3         = GPIO_MAKE_PIN(GPIOC_IDX, 12U), /* FRDM-KL46Z4 switchPin2 */
+	  kGpioSpi0Cd      = GPIO_MAKE_PIN(GPIOD_IDX, 4U),  /* FRDM-KL46Z4 J2.6 */
 };
 
 extern gpio_input_pin_user_config_t switchPins[];
 extern gpio_output_pin_user_config_t ledPins[];
+extern const gpio_input_pin_user_config_t spiCdPin[];
 
 #endif /* __FSL_GPIO_PINS_H__ */

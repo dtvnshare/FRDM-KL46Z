@@ -75,3 +75,15 @@ gpio_output_pin_user_config_t ledPins[] = {
     }
 };
 
+const gpio_input_pin_user_config_t spiCdPin[] = {
+  {
+    .pinName = kGpioSpi0Cd,
+    .config.isPullEnable = true,
+    .config.pullSelect = kPortPullDown,
+    .config.isPassiveFilterEnabled = false,
+    .config.interrupt = kPortIntEitherEdge
+  },
+  {
+    .pinName = GPIO_PINS_OUT_OF_RANGE,
+  }
+};

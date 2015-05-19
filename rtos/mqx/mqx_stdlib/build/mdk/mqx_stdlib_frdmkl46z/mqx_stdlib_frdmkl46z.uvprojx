@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_proj.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_projx.xsd">
 
-  <SchemaVersion>1.1</SchemaVersion>
+  <SchemaVersion>2.1</SchemaVersion>
 
   <Header>### uVision Project, (C) Keil Software</Header>
 
@@ -14,31 +14,31 @@
         <TargetCommonOption>
           <Device>MKL46Z256xxx4</Device>
           <Vendor>Freescale</Vendor>
-          <PackID>Keil.Kinetis_KLxx_DFP.1.2.2</PackID>
+          <PackID>Keil.Kinetis_KLxx_DFP.1.6.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>CPUTYPE("Cortex-M0+")</Cpu>
-          <FlashUtilSpec/>
-          <StartupFile/>
+          <FlashUtilSpec></FlashUtilSpec>
+          <StartupFile></StartupFile>
           <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD1FFFE000 -FC8000 -FN1 -FF0MK_P256_48MHZ -FS00 -FL040000 ($$Device:MKL46Z256xxx4$Flash\MK_P256_48MHZ.FLM))</FlashDriverDll>
           <DeviceId>6834</DeviceId>
           <RegisterFile>$$Device:MKL46Z256xxx4$Device\Include\MKL46Z4.h</RegisterFile>
-          <MemoryEnv/>
-          <Cmp/>
-          <Asm/>
-          <Linker/>
-          <OHString/>
-          <InfinionOptionDll/>
-          <SLE66CMisc/>
-          <SLE66AMisc/>
-          <SLE66LinkerMisc/>
+          <MemoryEnv></MemoryEnv>
+          <Cmp></Cmp>
+          <Asm></Asm>
+          <Linker></Linker>
+          <OHString></OHString>
+          <InfinionOptionDll></InfinionOptionDll>
+          <SLE66CMisc></SLE66CMisc>
+          <SLE66AMisc></SLE66AMisc>
+          <SLE66LinkerMisc></SLE66LinkerMisc>
           <SFDFile>$$Device:MKL46Z256xxx4$SVD\MKL46Z4.svd</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
-          <BinPath/>
-          <IncludePath/>
-          <LibPath/>
-          <RegisterFilePath/>
-          <DBRegisterFilePath/>
+          <BinPath></BinPath>
+          <IncludePath></IncludePath>
+          <LibPath></LibPath>
+          <RegisterFilePath></RegisterFilePath>
+          <DBRegisterFilePath></DBRegisterFilePath>
           <TargetStatus>
             <Error>0</Error>
             <ExitCodeStop>0</ExitCodeStop>
@@ -60,8 +60,8 @@
           <BeforeCompile>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name/>
-            <UserProg2Name/>
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopU1X>0</nStopU1X>
@@ -70,8 +70,8 @@
           <BeforeMake>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name/>
-            <UserProg2Name/>
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopB1X>0</nStopB1X>
@@ -81,12 +81,12 @@
             <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
             <UserProg1Name>../../bat/mqx_stdlib_frdmkl46z.bat ../../../.. ../../../../lib/frdmkl46z.mdk/debug/mqx_stdlib mdk</UserProg1Name>
-            <UserProg2Name/>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>1</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
           </AfterMake>
           <SelectedForBatchBuild>1</SelectedForBatchBuild>
-          <SVCSIdString/>
+          <SVCSIdString></SVCSIdString>
         </TargetCommonOption>
         <CommonProperty>
           <UseCPPCompiler>0</UseCPPCompiler>
@@ -100,17 +100,17 @@
           <AssembleAssemblyFile>0</AssembleAssemblyFile>
           <PublicsOnly>0</PublicsOnly>
           <StopOnExitCode>3</StopOnExitCode>
-          <CustomArgument/>
-          <IncludeLibraryModules/>
+          <CustomArgument></CustomArgument>
+          <IncludeLibraryModules></IncludeLibraryModules>
           <ComprImg>1</ComprImg>
         </CommonProperty>
         <DllOption>
           <SimDllName>SARMCM3.DLL</SimDllName>
-          <SimDllArguments/>
+          <SimDllArguments></SimDllArguments>
           <SimDlgDll>DARMCM1.DLL</SimDlgDll>
           <SimDlgDllArguments>-pCM0+</SimDlgDllArguments>
           <TargetDllName>SARMCM3.DLL</TargetDllName>
-          <TargetDllArguments/>
+          <TargetDllArguments></TargetDllArguments>
           <TargetDlgDll>TARMCM1.DLL</TargetDlgDll>
           <TargetDlgDllArguments>-pCM0+</TargetDlgDllArguments>
         </DllOption>
@@ -145,23 +145,22 @@
             <RestoreToolbox>1</RestoreToolbox>
             <RestoreTracepoints>1</RestoreTracepoints>
             <RestoreSysVw>1</RestoreSysVw>
-            <UsePdscDebugDescription>1</UsePdscDebugDescription>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>15</TargetSelection>
+          <TargetSelection>14</TargetSelection>
           <SimDlls>
-            <CpuDll/>
-            <CpuDllArguments/>
-            <PeripheralDll/>
-            <PeripheralDllArguments/>
-            <InitializationFile/>
+            <CpuDll></CpuDll>
+            <CpuDllArguments></CpuDllArguments>
+            <PeripheralDll></PeripheralDll>
+            <PeripheralDllArguments></PeripheralDllArguments>
+            <InitializationFile></InitializationFile>
           </SimDlls>
           <TargetDlls>
-            <CpuDll/>
-            <CpuDllArguments/>
-            <PeripheralDll/>
-            <PeripheralDllArguments/>
-            <InitializationFile/>
+            <CpuDll></CpuDll>
+            <CpuDllArguments></CpuDllArguments>
+            <PeripheralDll></PeripheralDll>
+            <PeripheralDllArguments></PeripheralDllArguments>
+            <InitializationFile></InitializationFile>
             <Driver>PEMicro\Pemicro_ArmCortexInterface.dll</Driver>
           </TargetDlls>
         </DebugOption>
@@ -177,10 +176,10 @@
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
           <Flash3>"" ()</Flash3>
-          <Flash4/>
-          <pFcarmOut/>
-          <pFcarmGrp/>
-          <pFcArmRoot/>
+          <Flash4></Flash4>
+          <pFcarmOut></pFcarmOut>
+          <pFcarmGrp></pFcarmGrp>
+          <pFcArmRoot></pFcArmRoot>
           <FcArmLst>0</FcArmLst>
         </Utilities>
         <TargetArmAds>
@@ -213,16 +212,16 @@
             <RvctClst>0</RvctClst>
             <GenPPlst>0</GenPPlst>
             <AdsCpuType>"Cortex-M0+"</AdsCpuType>
-            <RvctDeviceName/>
+            <RvctDeviceName></RvctDeviceName>
             <mOS>0</mOS>
             <uocRom>0</uocRom>
             <uocRam>0</uocRam>
-            <hadIROM>1</hadIROM>
-            <hadIRAM>1</hadIRAM>
+            <hadIROM>0</hadIROM>
+            <hadIRAM>0</hadIRAM>
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
-            <hadIRAM2>1</hadIRAM2>
+            <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
             <useUlib>0</useUlib>
@@ -344,7 +343,7 @@
                 <Size>0x2000</Size>
               </OCR_RVCT10>
             </OnChipMemories>
-            <RvctStartVector/>
+            <RvctStartVector></RvctStartVector>
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
@@ -409,7 +408,7 @@
 --diag_suppress=1296,186 
 </MiscControls>
               <Define>CPU_MKL46Z256VLL4=1, FSL_RTOS_MQX=1, _DEBUG=1</Define>
-              <Undefine/>
+              <Undefine></Undefine>
               <IncludePath>../../../source/include;../../../source/stdio;../../../../mqx/source/psp/cortex_m/compiler/rv_mdk;../../../../mqx/source/psp/cortex_m;../../../../mqx/source/psp/cortex_m/cpu;../../../../../../platform/devices/MKL46Z4/startup;../../../../../../platform/CMSIS/Include;../../../../config/common;../../../../config/mcu/MKL46Z4;../../../../config/board/frdmkl46z;../../../../../../examples/frdmkl46z;../../../../../../platform/devices/MKL46Z4;../../../../mqx/source/include;../../../../mqx/source/nio;../../../../mqx/source/nio/src;../../../../mqx/source/nio/fs;../../../../mqx/source/nio/drivers/nio_dummy;../../../../mqx/source/nio/drivers/nio_mem;../../../../mqx/source/nio/drivers/nio_null;../../../../mqx/source/nio/drivers/nio_pipe;../../../../mqx/source/nio/drivers/nio_serial;../../../../mqx/source/nio/drivers/nio_tfs;../../../../mqx/source/nio/drivers/nio_tty;../../../../../../platform/devices/MKL46Z4/startup;../../../../mqx/source/tad;../../../../../../examples/frdmkl46z;../../../../../../platform/devices/MKL46Z4/startup;../../../../../../platform/devices/MKL46Z4/include;../../../../../../platform;../../../../../../platform/devices;../../../../../../platform/CMSIS/Include;../../../../../../platform/hal/inc;../../../../../../platform/drivers/inc;../../../../../../platform/drivers/src/mpu;../../../../../../platform/drivers/src/uart;../../../../../../platform/utilities/inc;../../../../../../middleware/filesystem/mfs/source/mfs_sdcard/nio_esdhc;../../../../..;../../../../../../platform/osa/inc;../../../../../../platform/system/inc</IncludePath>
             </VariousControls>
           </Cads>
@@ -426,8 +425,8 @@
             <VariousControls>
               <MiscControls>--cpreproc_opts '-DCPU_MKL46Z256VLL4=1,-DFSL_RTOS_MQX=1,-D_DEBUG=1' --cpreproc 
 </MiscControls>
-              <Define/>
-              <Undefine/>
+              <Define></Define>
+              <Undefine></Undefine>
               <IncludePath>../../../../mqx/source/psp/cortex_m/compiler/rv_mdk;../../../../mqx/source/psp/cortex_m/core/M0;../../../../mqx/source/psp/cortex_m;../../../../../../platform/devices/MKL46Z4/startup;../../../../config/mcu/MKL46Z4;../../../../config/board/frdmkl46z;../../../../../../examples/frdmkl46z;../../../../../../platform/devices/MKL46Z4;../../../../mqx/source/include;../../../../config/common;../../../../../../platform/devices/MKL46Z4/startup;../../../../../../examples/frdmkl46z;../../../../../../platform/devices/MKL46Z4/startup;../../../../../../platform/devices/MKL46Z4/include</IncludePath>
             </VariousControls>
           </Aads>
@@ -440,17 +439,154 @@
             <useFile>0</useFile>
             <TextAddressRange>0x00000000</TextAddressRange>
             <DataAddressRange>0x1FFFE000</DataAddressRange>
-            <pXoBase/>
+            <pXoBase></pXoBase>
             <ScatterFile>..\..\..\lib\frdmkl46z.mdk\mqx\intflash.scf</ScatterFile>
-            <IncludeLibs/>
-            <IncludeLibsPath/>
-            <Misc/>
-            <LinkerInputFile/>
-            <DisabledWarnings/>
+            <IncludeLibs></IncludeLibs>
+            <IncludeLibsPath></IncludeLibsPath>
+            <Misc></Misc>
+            <LinkerInputFile></LinkerInputFile>
+            <DisabledWarnings></DisabledWarnings>
           </LDads>
         </TargetArmAds>
       </TargetOption>
-    <Groups><Group><GroupName>mqx_stdlib Source/include</GroupName><Files><File><FileName>std_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/include/std_prv.h</FilePath></File><File><FileName>stdio.h</FileName><FileType>5</FileType><FilePath>../../../source/include/stdio.h</FilePath></File><File><FileName>strings.h</FileName><FileType>5</FileType><FilePath>../../../source/include/strings.h</FilePath></File></Files></Group><Group><GroupName>mqx_stdlib Source/mqx_stdio</GroupName><Files><File><FileName>buf_prv.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/buf_prv.c</FilePath></File><File><FileName>buf_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/stdio/buf_prv.h</FilePath></File><File><FileName>err.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/err.c</FilePath></File><File><FileName>fclose.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fclose.c</FilePath></File><File><FileName>fflush.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fflush.c</FilePath></File><File><FileName>fopen.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fopen.c</FilePath></File><File><FileName>fp_prv.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fp_prv.c</FilePath></File><File><FileName>fp_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/stdio/fp_prv.h</FilePath></File><File><FileName>fread.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fread.c</FilePath></File><File><FileName>fwrite.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fwrite.c</FilePath></File><File><FileName>get.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/get.c</FilePath></File><File><FileName>pos.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/pos.c</FilePath></File><File><FileName>print.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/print.c</FilePath></File><File><FileName>print_prv.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/print_prv.c</FilePath></File><File><FileName>print_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/stdio/print_prv.h</FilePath></File><File><FileName>put.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/put.c</FilePath></File><File><FileName>scan.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/scan.c</FilePath></File><File><FileName>scan_prv.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/scan_prv.c</FilePath></File><File><FileName>scan_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/stdio/scan_prv.h</FilePath></File><File><FileName>stdio.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/stdio.c</FilePath></File></Files></Group><Group><GroupName>mqx_stdlib Source/mqx_strings</GroupName><Files><File><FileName>strings.c</FileName><FileType>1</FileType><FilePath>../../../source/strings/strings.c</FilePath></File></Files></Group></Groups></Target>
+      <Groups>
+        <Group>
+          <GroupName>mqx_stdlib Source/include</GroupName>
+          <Files>
+            <File>
+              <FileName>std_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/include/std_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>stdio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/include/stdio.h</FilePath>
+            </File>
+            <File>
+              <FileName>strings.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/include/strings.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>mqx_stdlib Source/mqx_stdio</GroupName>
+          <Files>
+            <File>
+              <FileName>buf_prv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/buf_prv.c</FilePath>
+            </File>
+            <File>
+              <FileName>buf_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/stdio/buf_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>err.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/err.c</FilePath>
+            </File>
+            <File>
+              <FileName>fclose.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fclose.c</FilePath>
+            </File>
+            <File>
+              <FileName>fflush.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fflush.c</FilePath>
+            </File>
+            <File>
+              <FileName>fopen.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fopen.c</FilePath>
+            </File>
+            <File>
+              <FileName>fp_prv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fp_prv.c</FilePath>
+            </File>
+            <File>
+              <FileName>fp_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/stdio/fp_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>fread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fread.c</FilePath>
+            </File>
+            <File>
+              <FileName>fwrite.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fwrite.c</FilePath>
+            </File>
+            <File>
+              <FileName>get.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/get.c</FilePath>
+            </File>
+            <File>
+              <FileName>pos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/pos.c</FilePath>
+            </File>
+            <File>
+              <FileName>print.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/print.c</FilePath>
+            </File>
+            <File>
+              <FileName>print_prv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/print_prv.c</FilePath>
+            </File>
+            <File>
+              <FileName>print_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/stdio/print_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>put.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/put.c</FilePath>
+            </File>
+            <File>
+              <FileName>scan.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/scan.c</FilePath>
+            </File>
+            <File>
+              <FileName>scan_prv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/scan_prv.c</FilePath>
+            </File>
+            <File>
+              <FileName>scan_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/stdio/scan_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>stdio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/stdio.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>mqx_stdlib Source/mqx_strings</GroupName>
+          <Files>
+            <File>
+              <FileName>strings.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/strings/strings.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+      </Groups>
+    </Target>
     <Target>
       <TargetName>release</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
@@ -459,31 +595,31 @@
         <TargetCommonOption>
           <Device>MKL46Z256xxx4</Device>
           <Vendor>Freescale</Vendor>
-          <PackID>Keil.Kinetis_KLxx_DFP.1.2.2</PackID>
+          <PackID>Keil.Kinetis_KLxx_DFP.1.6.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>CPUTYPE("Cortex-M0+")</Cpu>
-          <FlashUtilSpec/>
-          <StartupFile/>
+          <FlashUtilSpec></FlashUtilSpec>
+          <StartupFile></StartupFile>
           <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD1FFFE000 -FC8000 -FN1 -FF0MK_P256_48MHZ -FS00 -FL040000 ($$Device:MKL46Z256xxx4$Flash\MK_P256_48MHZ.FLM))</FlashDriverDll>
           <DeviceId>6834</DeviceId>
           <RegisterFile>$$Device:MKL46Z256xxx4$Device\Include\MKL46Z4.h</RegisterFile>
-          <MemoryEnv/>
-          <Cmp/>
-          <Asm/>
-          <Linker/>
-          <OHString/>
-          <InfinionOptionDll/>
-          <SLE66CMisc/>
-          <SLE66AMisc/>
-          <SLE66LinkerMisc/>
+          <MemoryEnv></MemoryEnv>
+          <Cmp></Cmp>
+          <Asm></Asm>
+          <Linker></Linker>
+          <OHString></OHString>
+          <InfinionOptionDll></InfinionOptionDll>
+          <SLE66CMisc></SLE66CMisc>
+          <SLE66AMisc></SLE66AMisc>
+          <SLE66LinkerMisc></SLE66LinkerMisc>
           <SFDFile>$$Device:MKL46Z256xxx4$SVD\MKL46Z4.svd</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
-          <BinPath/>
-          <IncludePath/>
-          <LibPath/>
-          <RegisterFilePath/>
-          <DBRegisterFilePath/>
+          <BinPath></BinPath>
+          <IncludePath></IncludePath>
+          <LibPath></LibPath>
+          <RegisterFilePath></RegisterFilePath>
+          <DBRegisterFilePath></DBRegisterFilePath>
           <TargetStatus>
             <Error>0</Error>
             <ExitCodeStop>0</ExitCodeStop>
@@ -505,8 +641,8 @@
           <BeforeCompile>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name/>
-            <UserProg2Name/>
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopU1X>0</nStopU1X>
@@ -515,8 +651,8 @@
           <BeforeMake>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name/>
-            <UserProg2Name/>
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopB1X>0</nStopB1X>
@@ -526,12 +662,12 @@
             <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
             <UserProg1Name>../../bat/mqx_stdlib_frdmkl46z.bat ../../../.. ../../../../lib/frdmkl46z.mdk/release/mqx_stdlib mdk</UserProg1Name>
-            <UserProg2Name/>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>1</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
           </AfterMake>
-          <SelectedForBatchBuild>1</SelectedForBatchBuild>
-          <SVCSIdString/>
+          <SelectedForBatchBuild>0</SelectedForBatchBuild>
+          <SVCSIdString></SVCSIdString>
         </TargetCommonOption>
         <CommonProperty>
           <UseCPPCompiler>0</UseCPPCompiler>
@@ -545,17 +681,17 @@
           <AssembleAssemblyFile>0</AssembleAssemblyFile>
           <PublicsOnly>0</PublicsOnly>
           <StopOnExitCode>3</StopOnExitCode>
-          <CustomArgument/>
-          <IncludeLibraryModules/>
+          <CustomArgument></CustomArgument>
+          <IncludeLibraryModules></IncludeLibraryModules>
           <ComprImg>1</ComprImg>
         </CommonProperty>
         <DllOption>
           <SimDllName>SARMCM3.DLL</SimDllName>
-          <SimDllArguments/>
+          <SimDllArguments></SimDllArguments>
           <SimDlgDll>DARMCM1.DLL</SimDlgDll>
           <SimDlgDllArguments>-pCM0+</SimDlgDllArguments>
           <TargetDllName>SARMCM3.DLL</TargetDllName>
-          <TargetDllArguments/>
+          <TargetDllArguments></TargetDllArguments>
           <TargetDlgDll>TARMCM1.DLL</TargetDlgDll>
           <TargetDlgDllArguments>-pCM0+</TargetDlgDllArguments>
         </DllOption>
@@ -590,23 +726,22 @@
             <RestoreToolbox>1</RestoreToolbox>
             <RestoreTracepoints>1</RestoreTracepoints>
             <RestoreSysVw>1</RestoreSysVw>
-            <UsePdscDebugDescription>1</UsePdscDebugDescription>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
           <TargetSelection>15</TargetSelection>
           <SimDlls>
-            <CpuDll/>
-            <CpuDllArguments/>
-            <PeripheralDll/>
-            <PeripheralDllArguments/>
-            <InitializationFile/>
+            <CpuDll></CpuDll>
+            <CpuDllArguments></CpuDllArguments>
+            <PeripheralDll></PeripheralDll>
+            <PeripheralDllArguments></PeripheralDllArguments>
+            <InitializationFile></InitializationFile>
           </SimDlls>
           <TargetDlls>
-            <CpuDll/>
-            <CpuDllArguments/>
-            <PeripheralDll/>
-            <PeripheralDllArguments/>
-            <InitializationFile/>
+            <CpuDll></CpuDll>
+            <CpuDllArguments></CpuDllArguments>
+            <PeripheralDll></PeripheralDll>
+            <PeripheralDllArguments></PeripheralDllArguments>
+            <InitializationFile></InitializationFile>
             <Driver>PEMicro\Pemicro_ArmCortexInterface.dll</Driver>
           </TargetDlls>
         </DebugOption>
@@ -622,10 +757,10 @@
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
           <Flash3>"" ()</Flash3>
-          <Flash4/>
-          <pFcarmOut/>
-          <pFcarmGrp/>
-          <pFcArmRoot/>
+          <Flash4></Flash4>
+          <pFcarmOut></pFcarmOut>
+          <pFcarmGrp></pFcarmGrp>
+          <pFcArmRoot></pFcArmRoot>
           <FcArmLst>0</FcArmLst>
         </Utilities>
         <TargetArmAds>
@@ -658,16 +793,16 @@
             <RvctClst>0</RvctClst>
             <GenPPlst>0</GenPPlst>
             <AdsCpuType>"Cortex-M0+"</AdsCpuType>
-            <RvctDeviceName/>
+            <RvctDeviceName></RvctDeviceName>
             <mOS>0</mOS>
             <uocRom>0</uocRom>
             <uocRam>0</uocRam>
-            <hadIROM>1</hadIROM>
-            <hadIRAM>1</hadIRAM>
+            <hadIROM>0</hadIROM>
+            <hadIRAM>0</hadIRAM>
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
-            <RvdsVP>2</RvdsVP>
-            <hadIRAM2>1</hadIRAM2>
+            <RvdsVP>0</RvdsVP>
+            <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
             <useUlib>0</useUlib>
@@ -789,7 +924,7 @@
                 <Size>0x2000</Size>
               </OCR_RVCT10>
             </OnChipMemories>
-            <RvctStartVector/>
+            <RvctStartVector></RvctStartVector>
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
@@ -854,7 +989,7 @@
 --diag_suppress=1296,186 
 </MiscControls>
               <Define>CPU_MKL46Z256VLL4=1, FSL_RTOS_MQX=1, NDEBUG=1</Define>
-              <Undefine/>
+              <Undefine></Undefine>
               <IncludePath>../../../source/include;../../../source/stdio;../../../../mqx/source/psp/cortex_m/compiler/rv_mdk;../../../../mqx/source/psp/cortex_m;../../../../mqx/source/psp/cortex_m/cpu;../../../../../../platform/devices/MKL46Z4/startup;../../../../../../platform/CMSIS/Include;../../../../config/common;../../../../config/mcu/MKL46Z4;../../../../config/board/frdmkl46z;../../../../../../examples/frdmkl46z;../../../../../../platform/devices/MKL46Z4;../../../../mqx/source/include;../../../../mqx/source/nio;../../../../mqx/source/nio/src;../../../../mqx/source/nio/fs;../../../../mqx/source/nio/drivers/nio_dummy;../../../../mqx/source/nio/drivers/nio_mem;../../../../mqx/source/nio/drivers/nio_null;../../../../mqx/source/nio/drivers/nio_pipe;../../../../mqx/source/nio/drivers/nio_serial;../../../../mqx/source/nio/drivers/nio_tfs;../../../../mqx/source/nio/drivers/nio_tty;../../../../../../platform/devices/MKL46Z4/startup;../../../../mqx/source/tad;../../../../../../examples/frdmkl46z;../../../../../../platform/devices/MKL46Z4/startup;../../../../../../platform/devices/MKL46Z4/include;../../../../../../platform;../../../../../../platform/devices;../../../../../../platform/CMSIS/Include;../../../../../../platform/hal/inc;../../../../../../platform/drivers/inc;../../../../../../platform/drivers/src/mpu;../../../../../../platform/drivers/src/uart;../../../../../../platform/utilities/inc;../../../../../../middleware/filesystem/mfs/source/mfs_sdcard/nio_esdhc;../../../../..;../../../../../../platform/osa/inc;../../../../../../platform/system/inc</IncludePath>
             </VariousControls>
           </Cads>
@@ -871,8 +1006,8 @@
             <VariousControls>
               <MiscControls>--cpreproc_opts '-DCPU_MKL46Z256VLL4=1,-DFSL_RTOS_MQX=1,-DNDEBUG=1' --cpreproc 
 </MiscControls>
-              <Define/>
-              <Undefine/>
+              <Define></Define>
+              <Undefine></Undefine>
               <IncludePath>../../../../mqx/source/psp/cortex_m/compiler/rv_mdk;../../../../mqx/source/psp/cortex_m/core/M0;../../../../mqx/source/psp/cortex_m;../../../../../../platform/devices/MKL46Z4/startup;../../../../config/mcu/MKL46Z4;../../../../config/board/frdmkl46z;../../../../../../examples/frdmkl46z;../../../../../../platform/devices/MKL46Z4;../../../../mqx/source/include;../../../../config/common;../../../../../../platform/devices/MKL46Z4/startup;../../../../../../examples/frdmkl46z;../../../../../../platform/devices/MKL46Z4/startup;../../../../../../platform/devices/MKL46Z4/include</IncludePath>
             </VariousControls>
           </Aads>
@@ -885,17 +1020,154 @@
             <useFile>0</useFile>
             <TextAddressRange>0x00000000</TextAddressRange>
             <DataAddressRange>0x1FFFE000</DataAddressRange>
-            <pXoBase/>
+            <pXoBase></pXoBase>
             <ScatterFile>..\..\..\lib\frdmkl46z.mdk\mqx\intflash.scf</ScatterFile>
-            <IncludeLibs/>
-            <IncludeLibsPath/>
-            <Misc/>
-            <LinkerInputFile/>
-            <DisabledWarnings/>
+            <IncludeLibs></IncludeLibs>
+            <IncludeLibsPath></IncludeLibsPath>
+            <Misc></Misc>
+            <LinkerInputFile></LinkerInputFile>
+            <DisabledWarnings></DisabledWarnings>
           </LDads>
         </TargetArmAds>
       </TargetOption>
-    <Groups><Group><GroupName>mqx_stdlib Source/include</GroupName><Files><File><FileName>std_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/include/std_prv.h</FilePath></File><File><FileName>stdio.h</FileName><FileType>5</FileType><FilePath>../../../source/include/stdio.h</FilePath></File><File><FileName>strings.h</FileName><FileType>5</FileType><FilePath>../../../source/include/strings.h</FilePath></File></Files></Group><Group><GroupName>mqx_stdlib Source/mqx_stdio</GroupName><Files><File><FileName>buf_prv.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/buf_prv.c</FilePath></File><File><FileName>buf_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/stdio/buf_prv.h</FilePath></File><File><FileName>err.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/err.c</FilePath></File><File><FileName>fclose.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fclose.c</FilePath></File><File><FileName>fflush.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fflush.c</FilePath></File><File><FileName>fopen.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fopen.c</FilePath></File><File><FileName>fp_prv.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fp_prv.c</FilePath></File><File><FileName>fp_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/stdio/fp_prv.h</FilePath></File><File><FileName>fread.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fread.c</FilePath></File><File><FileName>fwrite.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/fwrite.c</FilePath></File><File><FileName>get.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/get.c</FilePath></File><File><FileName>pos.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/pos.c</FilePath></File><File><FileName>print.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/print.c</FilePath></File><File><FileName>print_prv.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/print_prv.c</FilePath></File><File><FileName>print_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/stdio/print_prv.h</FilePath></File><File><FileName>put.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/put.c</FilePath></File><File><FileName>scan.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/scan.c</FilePath></File><File><FileName>scan_prv.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/scan_prv.c</FilePath></File><File><FileName>scan_prv.h</FileName><FileType>5</FileType><FilePath>../../../source/stdio/scan_prv.h</FilePath></File><File><FileName>stdio.c</FileName><FileType>1</FileType><FilePath>../../../source/stdio/stdio.c</FilePath></File></Files></Group><Group><GroupName>mqx_stdlib Source/mqx_strings</GroupName><Files><File><FileName>strings.c</FileName><FileType>1</FileType><FilePath>../../../source/strings/strings.c</FilePath></File></Files></Group></Groups></Target>
+      <Groups>
+        <Group>
+          <GroupName>mqx_stdlib Source/include</GroupName>
+          <Files>
+            <File>
+              <FileName>std_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/include/std_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>stdio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/include/stdio.h</FilePath>
+            </File>
+            <File>
+              <FileName>strings.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/include/strings.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>mqx_stdlib Source/mqx_stdio</GroupName>
+          <Files>
+            <File>
+              <FileName>buf_prv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/buf_prv.c</FilePath>
+            </File>
+            <File>
+              <FileName>buf_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/stdio/buf_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>err.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/err.c</FilePath>
+            </File>
+            <File>
+              <FileName>fclose.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fclose.c</FilePath>
+            </File>
+            <File>
+              <FileName>fflush.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fflush.c</FilePath>
+            </File>
+            <File>
+              <FileName>fopen.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fopen.c</FilePath>
+            </File>
+            <File>
+              <FileName>fp_prv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fp_prv.c</FilePath>
+            </File>
+            <File>
+              <FileName>fp_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/stdio/fp_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>fread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fread.c</FilePath>
+            </File>
+            <File>
+              <FileName>fwrite.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/fwrite.c</FilePath>
+            </File>
+            <File>
+              <FileName>get.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/get.c</FilePath>
+            </File>
+            <File>
+              <FileName>pos.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/pos.c</FilePath>
+            </File>
+            <File>
+              <FileName>print.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/print.c</FilePath>
+            </File>
+            <File>
+              <FileName>print_prv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/print_prv.c</FilePath>
+            </File>
+            <File>
+              <FileName>print_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/stdio/print_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>put.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/put.c</FilePath>
+            </File>
+            <File>
+              <FileName>scan.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/scan.c</FilePath>
+            </File>
+            <File>
+              <FileName>scan_prv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/scan_prv.c</FilePath>
+            </File>
+            <File>
+              <FileName>scan_prv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../../../source/stdio/scan_prv.h</FilePath>
+            </File>
+            <File>
+              <FileName>stdio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/stdio/stdio.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>mqx_stdlib Source/mqx_strings</GroupName>
+          <Files>
+            <File>
+              <FileName>strings.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../../../source/strings/strings.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+      </Groups>
+    </Target>
   </Targets>
 
 </Project>
